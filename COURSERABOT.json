@@ -1,0 +1,198 @@
+{
+  "Name": "COURSERABOT",
+  "CreationDate": "2023-1-13",
+  "Commands": [
+    {
+      "Command": "label",
+      "Target": "LEWATKAN",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[text()[contains(.,'Lewatkan')]]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK} == true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "Lewatkan.json",
+      "Value": "",
+      "Description": "Run another macro"
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": "Run another macro"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return true;",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "LANJUTKAN",
+      "Value": "",
+      "Description": "Run another macro"
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "label",
+      "Target": "LANJUTKAN",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[text()[contains(.,'Lanjutkan')]]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK} == true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "Lanjutkan.json",
+      "Value": "",
+      "Description": "Run another macro"
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": "Run another macro"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return true;",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "TANDAI",
+      "Value": "",
+      "Description": "Run another macro"
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": "Run another macro"
+    },
+    {
+      "Command": "label",
+      "Target": "TANDAI",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[text()[contains(.,'Tandai sebagai selesai')]]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK} == true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "Tandai.json",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return true;",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "PERGI",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "label",
+      "Target": "PERGI",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[text()[contains(.,'Pergi ke item berikutnya')]]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK} == true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "Pergi.json",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return true;",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "LEWATKAN",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
